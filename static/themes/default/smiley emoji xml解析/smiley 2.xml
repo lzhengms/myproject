@@ -1,0 +1,576 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<smileys>
+  <!-- Smiley Tip add by hcf 130419 -->
+  <smiley id="1001" name="smiley_stand_wx" />
+  <smiley id="1002" name="smiley_stand_pz" />
+  <smiley id="1003" name="smiley_stand_s" />
+  <smiley id="1004" name="smiley_stand_fd" />
+  <smiley id="1005" name="smiley_stand_dy" />
+  <smiley id="1006" name="smiley_stand_ll" />
+  <smiley id="1007" name="smiley_stand_hx" />
+  <smiley id="1008" name="smiley_stand_bz" />
+  <smiley id="1009" name="smiley_stand_shui" />
+  <smiley id="1010" name="smiley_stand_dk" />
+  <smiley id="1011" name="smiley_stand_gg" />
+  <smiley id="1012" name="smiley_stand_fn" />
+  <smiley id="1013" name="smiley_stand_tp" />
+  <smiley id="1014" name="smiley_stand_cy" />
+  <smiley id="1015" name="smiley_stand_jy" />
+  <smiley id="1016" name="smiley_stand_ng" />
+  <smiley id="1017" name="smiley_stand_kuk" />
+  <smiley id="1018" name="smiley_stand_lengh" />
+  <smiley id="1019" name="smiley_stand_zk" />
+  <smiley id="1020" name="smiley_stand_tu" />
+  <smiley id="1021" name="smiley_stand_tx" />
+  <smiley id="1022" name="smiley_stand_ka" />
+  <smiley id="1023" name="smiley_stand_by" />
+  <smiley id="1024" name="smiley_stand_am" />
+  <smiley id="1025" name="smiley_stand_jie" />
+  <smiley id="1026" name="smiley_stand_kun" />
+  <smiley id="1027" name="smiley_stand_jk" />
+  <smiley id="1028" name="smiley_stand_lh" />
+  <smiley id="1029" name="smiley_stand_hunx" />
+  <smiley id="1030" name="smiley_stand_db" />
+  <smiley id="1031" name="smiley_stand_fendou" />
+  <smiley id="1032" name="smiley_stand_zhm" />
+  <smiley id="1033" name="smiley_stand_yiw" />
+  <smiley id="1034" name="smiley_stand_xu" />
+  <smiley id="1035" name="smiley_stand_yun" />
+  <smiley id="1036" name="smiley_stand_zhem" />
+  <smiley id="1037" name="smiley_stand_shuai" />
+  <smiley id="1038" name="smiley_stand_kl" />
+  <smiley id="1039" name="smiley_stand_qiao" />
+  <smiley id="1040" name="smiley_stand_zj" />
+  <smiley id="1041" name="smiley_stand_ch" />
+  <smiley id="1042" name="smiley_stand_kb" />
+  <smiley id="1043" name="smiley_stand_gz" />
+  <smiley id="1044" name="smiley_stand_qd" />
+  <smiley id="1045" name="smiley_stand_huaix" />
+  <smiley id="1046" name="smiley_stand_zhh" />
+  <smiley id="1047" name="smiley_stand_yhh" />
+  <smiley id="1048" name="smiley_stand_hq" />
+  <smiley id="1049" name="smiley_stand_bs" />
+  <smiley id="1050" name="smiley_stand_wq" />
+  <smiley id="1051" name="smiley_stand_kk" />
+  <smiley id="1052" name="smiley_stand_yx" />
+  <smiley id="1053" name="smiley_stand_qq" />
+  <smiley id="1054" name="smiley_stand_xia" />
+  <smiley id="1055" name="smiley_stand_kel" />
+  <smiley id="1056" name="smiley_stand_cd" />
+  <smiley id="1057" name="smiley_stand_xig" />
+  <smiley id="1058" name="smiley_stand_pj" />
+  <smiley id="1059" name="smiley_stand_lq" />
+  <smiley id="1060" name="smiley_stand_pp" />
+  <smiley id="1061" name="smiley_stand_kf" />
+  <smiley id="1062" name="smiley_stand_fan" />
+  <smiley id="1063" name="smiley_stand_zt" />
+  <smiley id="1064" name="smiley_stand_mg" />
+  <smiley id="1065" name="smiley_stand_dx" />
+  <smiley id="1066" name="smiley_stand_sa" />
+  <smiley id="1067" name="smiley_stand_xin" />
+  <smiley id="1068" name="smiley_stand_xs" />
+  <smiley id="1069" name="smiley_stand_dg" />
+  <smiley id="1070" name="smiley_stand_shd" />
+  <smiley id="1071" name="smiley_stand_zhd" />
+  <smiley id="1072" name="smiley_stand_dao" />
+  <smiley id="1073" name="smiley_stand_zq" />
+  <smiley id="1074" name="smiley_stand_pch" />
+  <smiley id="1075" name="smiley_stand_bb" />
+  <smiley id="1076" name="smiley_stand_yl" />
+  <smiley id="1077" name="smiley_stand_ty" />
+  <smiley id="1078" name="smiley_stand_lw" />
+  <smiley id="1079" name="smiley_stand_yb" />
+  <smiley id="1080" name="smiley_stand_qiang" />
+  <smiley id="1081" name="smiley_stand_ruo" />
+  <smiley id="1082" name="smiley_stand_ws" />
+  <smiley id="1083" name="smiley_stand_shl" />
+  <smiley id="1084" name="smiley_stand_bq" />
+  <smiley id="1085" name="smiley_stand_gy" />
+  <smiley id="1086" name="smiley_stand_qt" />
+  <smiley id="1087" name="smiley_stand_cj" />
+  <smiley id="1088" name="smiley_stand_aini" />
+  <smiley id="1089" name="smiley_stand_bu" />
+  <smiley id="1090" name="smiley_stand_hd" />
+  <smiley id="1091" name="smiley_stand_aiq" />
+  <smiley id="1092" name="smiley_stand_fw" />
+  <smiley id="1093" name="smiley_stand_tiao" />
+  <smiley id="1094" name="smiley_stand_fad" />
+  <smiley id="1095" name="smiley_stand_oh" />
+  <smiley id="1096" name="smiley_stand_zhq" />
+  <smiley id="1097" name="smiley_stand_kt" />
+  <smiley id="1098" name="smiley_stand_ht" />
+  <smiley id="1099" name="smiley_stand_tsh" />
+  <smiley id="1100" name="smiley_stand_hsh" />
+  <smiley id="1101" name="smiley_stand_jd" />
+  <smiley id="1102" name="smiley_stand_jw" />
+  <smiley id="1103" name="smiley_stand_xw" />
+  <smiley id="1104" name="smiley_stand_zoutj" />
+  <smiley id="1105" name="smiley_stand_youtj" />
+
+
+  <!--  增加QQ默认表情 -->
+
+  
+	<smiley id="0" name="f_n_happy"  display="0"	  />
+	<smiley id="1" name="f_n_laugh" 	display="0"	/>
+	<smiley id="2" name="f_n_burstout" display="0"		/>
+	<smiley id="3" name="f_n_shy" 		display="0"	/>
+	<smiley id="4" name="f_n_admir" 	display="0"	/>
+	<smiley id="5" name="f_n_imagine" 	display="0"/>
+	<smiley id="6" name="f_n_greedy" 		display="0"/>
+	<smiley id="7" name="f_n_surprise" display="0"	/>
+	<smiley id="8" name="f_n_angry" 		display="0"/>
+	<smiley id="9" name="f_n_confused" 	display="0"/>
+	<smiley id="10" name="f_n_unhappy" display="0"	/>
+	<smiley id="11" name="f_n_sad" 			display="0"/>
+	<smiley id="12" name="f_n_cry" 			display="0"/>
+	<smiley id="13" name="f_n_shutup" 	display="0"/>
+	<smiley id="14" name="f_n_sweat" 		display="0"/>
+	<smiley id="15" name="f_n_titter" 	display="0"/>
+	<smiley id="16" name="f_n_cool" 		display="0"/>
+	<smiley id="17" name="f_n_sorry" 		display="0"/>
+	<smiley id="18" name="f_n_disagree" display="0"/>
+	<smiley id="19" name="f_n_yawn" 		display="0"/>
+	<smiley id="20" name="f_n_clap" 		display="0"/>
+	<smiley id="21" name="f_n_freeze" 	display="0"/>
+	<smiley id="22" name="f_n_excited" 	display="0"/>
+	<smiley id="23" name="f_n_encourage"display="0"/>
+	<smiley id="24" name="f_n_helpless"  display="0" />
+	<smiley id="25" name="f_n_flighty" 	display="0"/>
+	<smiley id="26" name="f_n_agree" 		display="0"/>
+	<smiley id="27" name="f_n_makeface" display="0"/>
+	<smiley id="28" name="f_n_question" display="0"/>
+	<smiley id="29" name="f_n_dizzy" display="0"/>
+	<smiley id="124" name="f_nof_no" display="0"/> 
+	<smiley id="125" name="f_nof_dumbbell" display="0"/> 
+	<smiley id="126" name="f_nof_kiss" 		display="0"/> 
+	<smiley id="127" name="f_nof_freeze" 	display="0"/> 
+	<smiley id="128" name="f_nof_numb" 		display="0"/> 
+	<smiley id="129" name="f_nof_sleepy" 	display="0"/> 
+	<smiley id="130" name="f_nof_wronged" display="0"/> 
+	<smiley id="131" name="f_nof_pedant" 	display="0"/> 
+	<smiley id="132" name="f_nof_proud"  	display="0"/> 
+	<smiley id="133" name="f_nof_horror" 	display="0"/> 
+	<smiley id="134" name="f_nof_horrify" display="0"/> 
+	<smiley id="135" name="f_nof_sign" 		display="0"/> 
+	<smiley id="136" name="f_nof_shake" 	display="0"/> 
+	<smiley id="137" name="f_nof_smoking" display="0"/> 
+	<smiley id="138" name="f_nof_smoking2" display="0"/> 
+	<smiley id="139" name="f_nof_picknose" display="0"/> 
+	<smiley id="140" name="f_nof_curllips" display="0"/> 
+	<smiley id="141" name="f_nof_hit" 		display="0"/> 
+	<smiley id="142" name="f_nof_strike" display="0"	/> 
+	<smiley id="143" name="f_nof_makefaces"display="0"/> 
+	<smiley id="144" name="f_nof_excited" display="0"/> 
+	<smiley id="145" name="f_nof_angary" 	display="0"/> 
+	<smiley id="146" name="f_nof_showoff" display="0"/> 
+	<smiley id="147" name="f_nof_naughty" display="0"/> 
+	<smiley id="148" name="f_nof_superman" display="0"/> 
+	<smiley id="149" name="f_nof_dancing" display="0"/> 
+	<smiley id="150" name="f_nof_rotateeye" display="0"/> 
+	<smiley id="151" name="f_nof_despise" display="0"/> 
+	<smiley id="152" name="f_nof_unhappy" display="0"/> 
+	<smiley id="153" name="f_nof_kiss2" 	display="0"/>
+	<smiley id="154" name="f_nof_wwe" 	display="0"/>
+	<smiley id="155" name="f_nof_cool" 	display="0"/>
+	<smiley id="156" name="f_nof_punch" 	display="0"/>
+	<smiley id="157" name="f_nof_alburnus" 	display="0"/>
+	<smiley id="158" name="f_nof_shywoman" 	display="0"/>
+	<smiley id="159" name="f_nof_awakened" 	display="0"/>
+	<smiley id="160" name="f_nof_awkward" 	display="0"/>
+	<smiley id="161" name="f_nof_ridiculous" 	display="0"/>
+  	<smiley id="162" name="f_nof_acquaintedlaughter" display="0"	/>
+  	<smiley id="163" name="f_nof_sunglasses" 	display="0"/>
+  	<smiley id="164" name="f_nof_giggle" 	display="0"/>
+  	<smiley id="165" name="f_nof_christmas" 	display="0"/>
+	<smiley id="166" name="f_nof_flee" display="0"	/>
+	<smiley id="167" name="f_nof_lickingtongue" 	display="0"/>
+	<smiley id="168" name="f_nof_eyebrow" 	display="0"/>
+	<smiley id="169" name="f_nof_littledevil" 	display="0"/>
+	<smiley id="170" name="f_nof_eyesluminous" 	display="0"/>
+	<smiley id="171" name="f_nof_specter2" display="0"	/>
+	<smiley id="172" name="f_nof_spiderman2" display="0"	/>
+ 
+
+  <smiley id="31" name="f_bug_cry" 		/>
+  <smiley id="32" name="f_bug_shady" 	/>
+  <smiley id="33" name="f_bug_shy"/>
+  <smiley id="34" name="f_bug_happy" 	/>
+  <smiley id="35" name="f_bug_lost" 	/>
+  <smiley id="36" name="f_bug_kick" 	/>
+  <smiley id="37" name="f_bug_secret" />
+  <smiley id="38" name="f_bug_bored" 	/>
+  <smiley id="39" name="f_bug_toilet" 	/>
+  <smiley id="40" name="f_bug_eat" 		/>
+  <smiley id="41" name="f_bug_sleepy" 	/>
+  <smiley id="42" name="f_bug_clap" 	/>
+  <smiley id="43" name="f_bug_silent"	/>
+  <smiley id="44" name="f_bug_wriggle" />
+  <smiley id="45" name="f_bug_disappear" />
+  <smiley id="46" name="f_bug_shuabing" 	/>
+  <smiley id="47" name="f_bug_coming" />
+  <smiley id="48" name="f_cat_terrify" />
+  <smiley id="49" name="f_cat_tears" 	/>
+  <smiley id="50" name="f_cat_cry" 	/>
+  <smiley id="51" name="f_cat_shy" 	/>
+  <smiley id="52" name="f_cat_pitiful" 	/>
+  <smiley id="53" name="f_cat_angry"	/>
+  <smiley id="54" name="f_cat_call" 	/>
+  <smiley id="55" name="f_cat_makefaces" />
+  <smiley id="56" name="f_cat_surprise" 	/>
+  <smiley id="57" name="f_cat_speechless" 	/>
+  <smiley id="58" name="f_cat_hungry" 	/>
+  
+  <!-- 新增表情-->
+  <smiley id="281" name="f_cutecat_renzhen"/>
+  <smiley id="282" name="f_cutecat_xiai"/>
+  <smiley id="283" name="f_cutecat_se"/>
+  <smiley id="284" name="f_cutecat_zhuak"/>
+  <smiley id="285" name="f_cutecat_yun"/>
+  <smiley id="286" name="f_cutecat_guilian"/>
+  <smiley id="287" name="f_cutecat_image"/>
+  <smiley id="288" name="f_cutecat_jings"/>
+  <smiley id="289" name="f_cutecat_koubi"/>
+  <smiley id="290" name="f_cutecat_ku"/>
+  <smiley id="291" name="f_cutecat_nuli"/>
+  <smiley id="292" name="f_cutecat_jinghu"/>
+  <smiley id="293" name="f_cutecat_xiayitiao"/>
+  <smiley id="294" name="f_cutecat_chifan"/>
+  <smiley id="295" name="f_cutecat_great"/>
+  <smiley id="296" name="f_cutecat_kele"/>
+  
+  <smiley id="59" name="f_rat_makefaces" 	/>
+  <smiley id="60" name="f_rat_surprise" />
+  <smiley id="61" name="f_hb_execration" />
+  <smiley id="62" name="f_hb_tears" />
+  <smiley id="63" name="f_hb_sing" />
+  <smiley id="64" name="f_hb_love" />
+  <smiley id="65" name="f_hb_cheer" />
+  <smiley id="66" name="f_hb_hot" />
+  <smiley id="67" name="f_hb_complacent" />
+  <smiley id="68" name="f_hb_cry" />
+  <smiley id="69" name="f_hb_angry" />
+  <smiley id="70" name="f_hb_wave" />
+  <smiley id="71" name="f_hx_makefaces" />
+  <smiley id="72" name="f_hx_pitiful" />
+  <smiley id="73" name="f_hx_sad"	/>
+  <smiley id="74" name="f_hx_angry" />
+  <smiley id="75" name="f_hx_cry" />
+  <smiley id="76" name="f_hx_greedy" />
+  <smiley id="77" name="f_wscat_devil" />
+  <smiley id="78" name="f_wscat_mask" />
+  <smiley id="79" name="f_wscat_nightmare" />
+  <smiley id="80" name="f_wscat_gain" />
+  <smiley id="81" name="f_df_male" />
+  <smiley id="82" name="f_df_happy" />
+  <smiley id="83" name="f_dog_angry"	/>
+  <smiley id="84" name="f_dog_happy" />
+  <smiley id="85" name="f_turtle_surprise" />
+  <smiley id="86" name="f_martian_cry" />
+  <smiley id="87" name="f_martian_love" 	/>
+  <smiley id="88" name="f_martian_angry" 	/>
+  <smiley id="89" name="f_dinosaur_surprise" />
+  <smiley id="90" name="f_dinosaur_love" 	/>
+  <smiley id="91" name="f_u_fastfood" 	/>
+  <smiley id="92" name="f_u_eraser" 		/>
+  <smiley id="93" name="f_snowman_angry" />
+  <smiley id="94" name="f_snowman_happy" />
+  <smiley id="95" name="f_ghost_laugh" />
+  <smiley id="96" name="f_ghost_sweat" />
+  <smiley id="97" name="f_fish_freeze" />
+  <smiley id="98" name="f_bear_makeface" />
+  <smiley id="99" name="f_bear_terrify" />
+  <smiley id="100" name="f_flower_fan" />
+  <smiley id="101" name="f_cat_scaredrun" />
+  <smiley id="102" name="f_ghost_frightenrun" />
+  <smiley id="103" name="f_cat_scary" />
+  <smiley id="104" name="f_cat_whip" 	/>
+  <smiley id="105" name="f_bean_angry" 	/>
+  <smiley id="106" name="f_bean_ignore" />
+  <smiley id="107" name="f_bean_thanks" />
+  <smiley id="108" name="f_bean_fault" 	/>
+  <smiley id="109" name="f_bean_helpless" />
+  <smiley id="110" name="f_bean_secret" />
+  <smiley id="111" name="f_bean_admir" 	/>
+  <smiley id="112" name="f_bean_happy" 	/>
+  <smiley id="113" name="f_bean_titter" />
+  <smiley id="114" name="f_bean_sweat" 	/>
+  <smiley id="115" name="f_bean_offense" />
+  <smiley id="116" name="f_bean_laugh" 	/>
+  <smiley id="117" name="f_bean_shy" 		/>
+  <smiley id="118" name="f_bean_excited" />
+  <smiley id="119" name="f_bean_dizzy" />
+  <smiley id="120" name="f_bean_surprise" />
+  <smiley id="181" name="f_nd_volunteer" />
+  <smiley id="182" name="f_mickey_hostility" />
+  <smiley id="183" name="f_mickey_dizzy" />
+  <smiley id="184" name="f_mickey_angry" />
+  <smiley id="185" name="f_mickey_cool" />
+  <smiley id="186" name="f_mickey_coquetry" />
+  <smiley id="187" name="f_mickey_disgust" />
+  <smiley id="188" name="f_mickey_sad" />
+  <smiley id="189" name="f_mickey_doubt" />
+  <smiley id="190" name="f_mickey_horror" />
+  <smiley id="191" name="f_mickey_excited" />
+  <smiley id="192" name="f_mickey_playfool" />
+  <smiley id="193" name="f_mickey_happy" />
+  <smiley id="194" name="f_mickey_hungry" />
+  <smiley id="195" name="f_mickey_love" />
+  <smiley id="196" name="f_mickey_admire" />
+  <smiley id="197" name="f_mickey_silent" />
+  <smiley id="198" name="f_mickey_idea" />
+  <smiley id="199" name="f_mickey_shy" />
+  <smiley id="200" name="f_mickey_surprise" />
+  <smiley id="201" name="f_mickey_sleepy" />
+  <smiley id="202" name="f_mickey_adore" />
+  <smiley id="203" name="f_mickey_despair" />
+  <smiley id="204" name="f_mickey_smile" />
+  <smiley id="205" name="f_mickey_laugh" />
+  <smiley id="206" name="f_mickey_laugh2" />
+  <smiley id="207" name="f_mickey_heartbroken" />
+  <smiley id="208" name="f_stitch_happybirthday" />
+  <smiley id="209" name="f_stitch_makeafriend" />
+  <smiley id="210" name="f_stitch_takeabreak" />
+  <smiley id="211" name="f_stitch_cry" />
+  <smiley id="212" name="f_stitch_robbery" />
+  <smiley id="213" name="f_stitch_kiss" />
+  <smiley id="214" name="f_stitch_run" />
+  <smiley id="215" name="f_stitch_surprise" />
+  <smiley id="216" name="f_stitch_daze" />
+  <smiley id="217" name="f_stitch_cute" />
+  <smiley id="218" name="f_stitch_struggle" />
+  <smiley id="219" name="f_stitch_giggle" />
+  <smiley id="220" name="f_stitch_superciliouslook" />
+  <smiley id="221" name="f_stitch_terrify" />
+  <smiley id="222" name="f_stitch_embarrassed" />
+  <smiley id="223" name="f_stitch_torment" />
+  <smiley id="224" name="f_stitch_grin" />
+  <smiley id="225" name="f_stitch_amazing" />
+  <smiley id="226" name="f_stitch_rookie" />
+  <smiley id="227" name="f_stitch_gift" />
+  <smiley id="228" name="f_stitch_sleepy" />
+  <smiley id="229" name="f_stitch_lovely" />
+  <smiley id="230" name="f_stitch_flowers" />
+  <smiley id="231" name="f_stitch_fan" />
+  <smiley id="232" name="f_stitch_wipesweat" />
+  <smiley id="233" name="f_stitch_laugh" />
+  <smiley id="234" name="f_stitch_sickness" />
+  <smiley id="235" name="f_stitch_hammer" />
+  <smiley id="236" name="f_stitch_shutup" />
+  <smiley id="237" name="f_stitch_contempt" />
+  <smiley id="238" name="f_stitch_sweat" />
+  <smiley id="239" name="f_stitch_donot" />
+  <smiley id="240" name="f_stitch_upgrade" />
+  <smiley id="241" name="f_stitch_superman" />
+  <smiley id="242" name="f_stitch_ignore" />
+  <smiley id="243" name="f_stitch_yeah" />
+  <smiley id="244" name="f_winnie_cheer" />
+  <smiley id="245" name="f_winnie_pingpong" />
+  <smiley id="246" name="f_winnie_singing" />
+  <smiley id="247" name="f_winnie_farewell" />
+  <smiley id="248" name="f_winnie_chew" />
+  <smiley id="249" name="f_winnie_sniff" />
+  <smiley id="250" name="f_winnie_scared" />
+  <smiley id="251" name="f_winnie_surprise" />
+  <smiley id="252" name="f_winnie_happy" />
+  <smiley id="253" name="f_winnie_lookaround" />
+  <smiley id="254" name="f_winnie_flower" />
+  <smiley id="255" name="f_winnie_bored" />
+  <smiley id="256" name="f_winnie_shake" />
+  <smiley id="257" name="f_winnie_celebrate" />
+  <smiley id="258" name="f_winnie_sleep" />
+  <smiley id="259" name="f_winnie_telescope" />
+  <smiley id="260" name="f_winnie_game" />
+  <smiley id="261" name="f_winnie_reading" />
+  <smiley id="262" name="f_winnie_doze" />
+  <smiley id="263" name="f_winnie_dance" />
+  <smiley id="264" name="f_dkol_happy" />
+  <smiley id="265" name="f_dkol_cry" />
+  <smiley id="266" name="f_dkol_angry" />
+  <smiley id="267" name="f_dkol_laugh" />
+  <smiley id="268" name="f_dkol_sorrow" />
+  <smiley id="269" name="f_dkol2_happy" />
+  <smiley id="270" name="f_dkol2_cry" />
+  <smiley id="271" name="f_dkol2_laugh" />
+  <smiley id="272" name="f_dkol2_mourning" />
+  <smiley id="273" name="f_dkol2_angry" />
+  
+	<smiley  id="128516" name="emoji_128516"/>
+	<smiley  id="128515" name="emoji_128515"/>
+	<smiley  id="128522" name="emoji_128522"/>
+	<smiley  id="9786" name="emoji_9786"/>
+	<smiley  id="128521" name="emoji_128521"/>
+	<smiley  id="128525" name="emoji_128525"/>
+	<smiley  id="128536" name="emoji_128536"/>
+	<smiley  id="128538" name="emoji_128538"/>
+	<smiley  id="128563" name="emoji_128563"/>
+	<smiley  id="128524" name="emoji_128524"/>
+	<smiley  id="128513" name="emoji_128513"/>
+	<smiley  id="128540" name="emoji_128540"/>
+	<smiley  id="128541" name="emoji_128541"/>
+	<smiley  id="128530" name="emoji_128530"/>
+	<smiley  id="128527" name="emoji_128527"/>
+	<smiley  id="128560" name="emoji_128560"/>
+	<smiley  id="128557" name="emoji_128557"/>
+	<smiley  id="128514" name="emoji_128514"/>
+	<smiley  id="128561" name="emoji_128561"/>
+	<smiley  id="128534" name="emoji_128534"/>
+	<smiley  id="128531" name="emoji_128531"/>
+	<smiley  id="128552" name="emoji_128552"/>
+	<smiley  id="128547" name="emoji_128547"/>
+	<smiley  id="128546" name="emoji_128546"/>
+	<smiley  id="128549" name="emoji_128549"/>
+	<smiley  id="128532" name="emoji_128532"/>
+	<smiley  id="128542" name="emoji_128542"/>
+	<smiley  id="128562" name="emoji_128562"/>
+	<smiley  id="128544" name="emoji_128544"/>
+	<smiley  id="128545" name="emoji_128545"/>
+	<smiley  id="128554" name="emoji_128554"/>
+	<smiley  id="128567" name="emoji_128567"/>
+	<smiley  id="128127" name="emoji_128127"/>
+	<smiley  id="128125" name="emoji_128125"/>
+	<smiley  id="128123" name="emoji_128123"/>
+	<smiley  id="128128" name="emoji_128128"/>
+	<smiley  id="128124" name="emoji_128124"/>
+	<smiley  id="127877" name="emoji_127877"/>
+	<smiley  id="128169" name="emoji_128169"/>
+	<smiley  id="128145" name="emoji_128145"/>
+	<smiley  id="128170" name="emoji_128170"/>
+	<smiley  id="128074" name="emoji_128074"/>
+	<smiley  id="9757" name="emoji_9757"/>
+	<smiley  id="128079" name="emoji_128079"/>
+	<smiley  id="9994" name="emoji_9994"/>
+	<smiley  id="9996" name="emoji_9996"/>
+	<smiley  id="9995" name="emoji_9995"/>
+	<smiley  id="128070" name="emoji_128070"/>
+	<smiley  id="128071" name="emoji_128071"/>
+	<smiley  id="128072" name="emoji_128072"/>
+	<smiley  id="128073" name="emoji_128073"/>
+	<smiley  id="128077" name="emoji_128077"/>
+	<smiley  id="128078" name="emoji_128078"/>
+	<smiley  id="128076" name="emoji_128076"/>
+	<smiley  id="128064" name="emoji_128064"/>
+	<smiley  id="128067" name="emoji_128067"/>
+	<smiley  id="128139" name="emoji_128139"/>
+	<smiley  id="128066" name="emoji_128066"/>
+	<smiley  id="128591" name="emoji_128591"/>
+	<smiley  id="127867" name="emoji_127867"/>
+	<smiley  id="127834" name="emoji_127834"/>
+	<smiley  id="127858" name="emoji_127858"/>
+	<smiley  id="127836" name="emoji_127836"/>
+	<smiley  id="127833" name="emoji_127833"/>
+	<smiley  id="127857" name="emoji_127857"/>
+	<smiley  id="127843" name="emoji_127843"/>
+	<smiley  id="127842" name="emoji_127842"/>
+	<smiley  id="127874" name="emoji_127874"/>
+	<smiley  id="127838" name="emoji_127838"/>
+	<smiley  id="127847" name="emoji_127847"/>
+	<smiley  id="9749" name="emoji_9749"/>
+	<smiley  id="127828" name="emoji_127828"/>
+	<smiley  id="127839" name="emoji_127839"/>
+	<smiley  id="127846" name="emoji_127846"/>
+	<smiley  id="127822" name="emoji_127822"/>
+	<smiley  id="127827" name="emoji_127827"/>
+	<smiley  id="127818" name="emoji_127818"/>
+	<smiley  id="127817" name="emoji_127817"/>
+	<smiley  id="127814" name="emoji_127814"/>
+	<smiley  id="128138" name="emoji_128138"/>
+	<smiley  id="128052" name="emoji_128052"/>
+	<smiley  id="128049" name="emoji_128049"/>
+	<smiley  id="128025" name="emoji_128025"/>
+	<smiley  id="128055" name="emoji_128055"/>
+	<smiley  id="128047" name="emoji_128047"/>
+	<smiley  id="128059" name="emoji_128059"/>
+	<smiley  id="128054" name="emoji_128054"/>
+	<smiley  id="128046" name="emoji_128046"/>
+	<smiley  id="128048" name="emoji_128048"/>
+	<smiley  id="128013" name="emoji_128013"/>
+	<smiley  id="128045" name="emoji_128045"/>
+	<smiley  id="128051" name="emoji_128051"/>
+	<smiley  id="128039" name="emoji_128039"/>
+	<smiley  id="128053" name="emoji_128053"/>
+	<smiley  id="128044" name="emoji_128044"/>
+	<smiley  id="128032" name="emoji_128032"/>
+	<smiley  id="128036" name="emoji_128036"/>
+	<smiley  id="128040" name="emoji_128040"/>
+	<smiley  id="128017" name="emoji_128017"/>
+	<smiley  id="128056" name="emoji_128056"/>
+	<smiley  id="127908" name="emoji_127908"/>
+	<smiley  id="126980" name="emoji_126980"/>
+	<smiley  id="9824" name="emoji_9824"/>
+	<smiley  id="9971" name="emoji_9971"/>
+	<smiley  id="127934" name="emoji_127934"/>
+	<smiley  id="9918" name="emoji_9918"/>
+	<smiley  id="9917" name="emoji_9917"/>
+	<smiley  id="127936" name="emoji_127936"/>
+	<smiley  id="127944" name="emoji_127944"/>
+	<smiley  id="127921" name="emoji_127921"/>
+	<smiley  id="127946" name="emoji_127946"/>
+	<smiley  id="128111" name="emoji_128111"/>
+	<smiley  id="128663" name="emoji_128663"/>
+	<smiley  id="9992" name="emoji_9992"/>
+	<smiley  id="128649" name="emoji_128649"/>
+	<smiley  id="9973" name="emoji_9973"/>
+	<smiley  id="128645" name="emoji_128645"/>
+	<smiley  id="128661" name="emoji_128661"/>
+	<smiley  id="128690" name="emoji_128690"/>
+	<smiley  id="128640" name="emoji_128640"/>
+	<smiley  id="128148" name="emoji_128148"/>
+	<smiley  id="11088" name="emoji_11088"/>
+	<smiley  id="9728" name="emoji_9728"/>
+	<smiley  id="127769" name="emoji_127769"/>
+	<smiley  id="128161" name="emoji_128161"/>
+	<smiley  id="128293" name="emoji_128293"/>
+	<smiley  id="128176" name="emoji_128176"/>
+	<smiley  id="128137" name="emoji_128137"/>
+	<smiley  id="128164" name="emoji_128164"/>
+	<smiley  id="9889" name="emoji_9889"/>
+	<smiley  id="128168" name="emoji_128168"/>
+	<smiley  id="128166" name="emoji_128166"/>
+	<smiley  id="128684" name="emoji_128684"/>
+	<smiley  id="127873" name="emoji_127873"/>
+	<smiley  id="9748" name="emoji_9748"/>
+	<smiley  id="128299" name="emoji_128299"/>
+	<smiley  id="128701" name="emoji_128701"/>
+	<smiley  id="128677" name="emoji_128677"/>
+	<smiley  id="128089" name="emoji_128089"/>
+	<smiley  id="128344" name="emoji_128344"/>
+	<smiley  id="128704" name="emoji_128704"/>
+	<smiley  id="127797" name="emoji_127797"/>
+	<smiley  id="127803" name="emoji_127803"/>
+	<smiley  id="127796" name="emoji_127796"/>
+	<smiley  id="127975" name="emoji_127975"/>
+	<smiley  id="128702" name="emoji_128702"/>
+	<smiley  id="11093" name="emoji_11093"/>
+	<smiley  id="10060" name="emoji_10060"/>
+	<smiley  id="128162" name="emoji_128162"/>
+	<smiley  id="10068" name="emoji_10068"/>
+	<smiley  id="10069" name="emoji_10069"/>
+	<smiley  id="127744" name="emoji_127744"/>
+	<smiley  id="127974" name="emoji_127974"/>
+	<smiley  id="127968" name="emoji_127968"/>
+	<smiley  id="9962" name="emoji_9962"/>
+	<smiley  id="127973" name="emoji_127973"/>
+	<smiley  id="127978" name="emoji_127978"/>
+	<smiley  id="127979" name="emoji_127979"/>
+	<smiley  id="127977" name="emoji_127977"/>
+
+    <!-- 新增英魂之刃表情 -->
+    <smiley id="1120" name="smiley_yhzr_an" />
+    <smiley id="1121" name="smiley_yhzr_bbg" />
+    <smiley id="1122" name="smiley_yhzr_bg" />
+    <smiley id="1123" name="smiley_yhzr_brw" />
+    <smiley id="1124" name="smiley_yhzr_cr" />
+    <smiley id="1125" name="smiley_yhzr_cj" />
+    <smiley id="1126" name="smiley_yhzr_dd" />
+    <smiley id="1127" name="smiley_yhzr_gwz" />
+    <smiley id="1128" name="smiley_yhzr_jj" />
+    <smiley id="1129" name="smiley_yhzr_kdie" />
+    <smiley id="1130" name="smiley_yhzr_kdian" />
+    <smiley id="1131" name="smiley_yhzr_qsb" />
+    <smiley id="1132" name="smiley_yhzr_sg" />
+    <smiley id="1133" name="smiley_yhzr_xqn" />
+    <smiley id="1134" name="smiley_yhzr_xxq" />
+    <smiley id="1135" name="smiley_yhzr_xye" />
+
+</smileys>

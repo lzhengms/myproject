@@ -1,0 +1,21 @@
+.time-interval {
+  font-size: 14px;
+  text-align: center;
+  padding: 5px;
+  .time {
+    color: #aaa;
+    @include inline-block();
+    vertical-align: middle;
+    &:after, &:before {
+      content: '';
+      width: 30px;
+      height: 0;
+      margin-left: 8px;
+      margin-right: 8px;
+      border-bottom: 1px solid #aaa;
+      @include inline-block();
+      margin-top: -5px;
+      vertical-align: middle;
+    }
+  }
+}

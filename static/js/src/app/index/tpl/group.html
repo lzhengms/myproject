@@ -1,0 +1,11 @@
+<div class="group {{status?'active': ''}}" data-gid="{{gid}}" data-type="group" data-action="talk-to">
+    <div class="group-wrap">
+        <img class="avatar" src="{{Global.url}}static/public/themes/default/images/{{type}}-avatar.png" data-action="{{type}}-info" />
+        <div class="content">
+            <div class="name" data-role="groupname" title="{{groupname}}">{{groupname}}</div>
+            <div class="last-message" data-role="last-message">{{lastMessageContent}}</div>
+        </div>
+        <div class="unread-tip" data-role="unread-tip" style="display: {{unreadCount ? 'block' : 'none'}}">{{unreadCount}}</div>
+        <div class="contact-time" data-role="contact-time">{{Global.helper.cuteContactTime(lastContactTime)}}</div>
+    </div>
+</div>

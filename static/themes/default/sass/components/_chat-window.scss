@@ -1,0 +1,467 @@
+$btn-list: go-back, history, group-share, group-info, discussion-info, face, pic,file,submit,upload-share-file;
+@each $btn in $btn-list {
+  .#{$btn}-btn {
+    cursor: pointer;
+    background: url($image-url + $btn + '.png')  no-repeat center;
+  }
+}
+
+#chat-window {
+  position: relative;
+  float: left;
+  height: 0;
+  width: 0;
+  @include opacity(0);
+  @include transition(opacity .5s ease .5s);
+  &.show {
+    height: 100%;
+    width: 560px;
+    @include opacity(1);
+  }
+  >div {
+    display: none;
+  }
+
+  .head {
+    text-align: center;
+    position: relative;
+    height: $head-height;
+    .title {
+      color: #fff;
+      font-size: 0;
+      line-height: 46px;
+    }
+    .name {
+      font-size: 16px;
+      margin: 0 5px;
+      display: inline-block;
+      max-width: 325px;
+      height: 46px;
+      vertical-align: middle;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+    .name-info, .status {
+      font-size: 16px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    .go-back-btn, .history-btn, .group-share-btn, .group-info-btn, .discussion-info-btn {
+      width: 30px;
+      height: 30px;
+      margin: 8px 5px 5px 0;
+    }
+    .upload-share-file-btn{
+      width:21px;
+      height:20px;
+      margin:13px 65px 5px 0;
+      input{
+        opacity: 0;
+        cursor: pointer;
+        width:100%;
+        height:100%;
+        overflow: hidden;
+        padding-left:20px ;
+        width:0;
+      }
+    }
+    .go-back-btn {
+      float: left;
+    }
+    .history-btn, .group-share-btn, .group-info-btn, .discussion-info-btn, .upload-share-file-btn {
+      float: right;
+    }
+  }
+  .notice-room, .group-notice-room {
+    .head {
+      .title {
+        font-size: 16px;
+      }
+    }
+    .body {
+      position: absolute;
+      width: 100%;
+      top: $head-height;
+      bottom: 0;
+      overflow-y: auto;
+    }
+  }
+  .chat-room, .history {
+    .body  {
+      position: absolute;
+      width: 100%;
+      top: $head-height;
+      bottom: $chat-room-footer-height;
+      overflow-y: auto;
+      .messages-container:nth-child(1) {
+        padding-bottom: 10px;
+      }
+      .no-history {
+        margin: 15px;
+        text-align: center;
+        border-bottom: 1px solid #ccc;
+        outline-width: 200px;
+        padding-bottom: 10px;
+        font-size: 12px;
+        color: #999;
+        strong {
+          color: #333;
+          font-weight: bold;
+        }
+      }
+    }
+    .footer {
+      position: absolute;
+      background-color: white;
+      width: 100%;
+      padding: 5px 0;
+      bottom: 0;
+      /* hack margin between inline-block */
+      font-size: 0;
+      border-top: 1px solid #ddd;
+      .face-btn, .pic-btn,.file-btn {
+        @include inline-block();
+        margin-right: 5px;
+        width: 30px;
+        height: 30px;
+      }
+      .input-wrap {
+        $wrap-width: 450px;
+        $submit-width: 75px;
+        $content-width: $wrap-width - $submit-width;
+        @include inline-block();
+        /* hack margin between inline-block */
+        font-size: 16px;
+        margin-top: 6px;
+        margin-left: 10px;
+        width: 96%;
+        border: 0;
+        overflow: hidden;
+        @include border-radius(3px);
+        .content {
+          float: right;
+          border: 1px solid #ccc;
+          margin: 0;
+          padding: 10px;
+          height: 15px;
+          line-height: 15px;
+          background: #F5F5F5;
+          width: $content-width - 65px;
+          &.normal{
+            width:$content-width - 25px;
+          }
+        }
+        .content:focus {
+          background: #FFFFFF;
+        }
+        .content-clone {
+          position: absolute;
+          visibility: hidden;
+          left: -1000px;
+          overflow: hidden;
+          width: $content-width - 65px;
+          padding: 10px;
+          height: 15px;
+          border: 1px solid #ccc;
+        }
+        .submit-btn {
+          float: right;
+          width: $submit-width - 20px;
+          height: 14px;
+          padding: 10px 10px;
+          margin-left: 10px;
+          text-align: center;
+          font-size: 15px;
+          color: #fff;
+          cursor: pointer;
+          background-repeat: repeat-x;
+        }
+      }
+    }
+  }
+  .group-share {
+    .body  {
+      position: absolute;
+      width: 100%;
+      top: $head-height;
+      bottom: 0;
+      overflow-y: auto;
+    }
+    .group-share-wrap {
+      padding: 0 20px;
+    }
+    .no-share-file {
+      text-align: center;
+      font-size: 14px;
+      color: #666;
+      line-height: 150%;
+    }
+    .group-share-file {
+      position: relative;
+      margin: 20px 0;
+      padding-left: 60px;
+      background-repeat: no-repeat;
+      background-position: 0 50%;
+      .name {
+        margin-bottom: 5px;
+        font-size: 14px;
+        line-height: 1.5;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        width:80%;
+      }
+      .size, .date {
+        color: #999;
+        font-size: 12px;
+        margin-right: 20px;
+      }
+      .download-btn {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 0;
+        right: 40px;
+        background-image: url($image-url + 'download.png');
+      }
+      a.del-btn{
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        top: 8px;
+        right: 10px;
+      }
+      a.del-btn:link{
+        background-image: url($image-url + 'del-share.png');
+      }
+      a.del-btn:hover{
+        background-image: url($image-url + 'del-share-ing.png');
+      }
+
+    }
+    $list: 'doc', 'xls', 'ppt', 'pdf', 'txt', 'zip', 'movie', 'music', 'pic', 'default';
+    @each $type in $list {
+      .file-type-#{$type} {
+        background-image: url($image-url + 'file-' + $type + '.png');
+      }
+    }
+
+  }
+  .group-info, .discussion-info {
+    .body  {
+      position: absolute;
+      width: 100%;
+      top: $head-height;
+      bottom: 0;
+      overflow-y: auto;
+    }
+    .top-part {
+      padding: 0 20px;
+      border-bottom: 1px dashed #ccc;
+    }
+    .bottom-part {
+      padding: 0 20px;
+    }
+    .item-title {
+      margin: 15px 0;
+      font-size: 13px;
+      color: #999;
+    }
+    .group-notice, .group-intro {
+      line-height: 150%;
+      margin: 15px 0;
+      font-size: 14px;
+      color: #333;
+      word-break: break-all;
+      word-wrap: normal;
+    }
+    .group-member {
+      @include inline-block();
+      width: 55px;
+      overflow: hidden;
+      margin: 7px 0;
+      text-align: center;
+      font-size: 0;
+      cursor: pointer;
+      .avatar {
+        width: 40px;
+        height: 40px;
+      }
+      .grade {
+        width: 13px;
+        height: 13px;
+        @include inline-block();
+        vertical-align: bottom;
+      }
+      .username {
+        font-size: 13px;
+        line-height: 120%;
+      }
+      // normal member
+      .grade-1 {
+        margin-top: 5px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        width: 55px;
+        .grade { display: none; }
+      }
+      // admin
+      .grade-2 {
+        margin-top: 5px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        width: 55px;
+        .grade {
+          background-image: url($image-url + 'group-admin.jpg');
+        }
+      }
+      // owner
+      .grade-3 {
+        margin-top: 5px;
+        color: orange;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        width: 55px;
+        letter-spacing: normal;
+        word-spacing: normal;
+        .grade {
+          background-image: url($image-url + 'group-owner.jpg');
+        }
+      }
+      @media screen and (-webkit-min-device-pixel-ratio:0) {
+        .grade-2, .grade-3 {
+          letter-spacing: -4px;
+        }
+        .username {
+          letter-spacing: normal;
+        }
+      }
+    }
+  }
+  .discussion-info {
+    .body  {
+      position: absolute;
+      width: 100%;
+      top: $head-height;
+      bottom: 0;
+      overflow-y: auto;
+    }
+    .top-part {
+      padding: 0 20px;
+    }
+    .item-title {
+      margin: 15px 0;
+      font-size: 13px;
+      color: #999;
+    }
+    .discussion-notice {
+      line-height: 150%;
+      margin: 15px 0;
+      font-size: 14px;
+      color: #333;
+      word-break: break-all;
+      word-wrap: normal;
+    }
+  }
+  &.type-user {
+    .username { display: none; }
+    .group-share-btn, .group-share, .group-info, .group-info-btn, .discussion-info-btn {display: none;}
+    .type-group { display: none;}
+  }
+  &.type-group {
+    .discussion-info-btn {display: none;}
+    .status { display: none; }
+    .type-user { display: none; }
+  }
+  &.type-discussion {
+    .group-share-btn, .group-share, .group-info, .group-info-btn, .history {display: none;}
+    .status { display: none; }
+    .type-user { display: none; }
+    .type-group { display: none;}
+  }
+
+}
+
+#history-calendar {
+  cursor: pointer;
+  height: 20px;
+  width: 100px;
+  margin: 6px 0 5px 13px;
+  color: #666;
+  padding: 5px 25px 5px 10px;
+  border: 1px solid #ccc;
+  background-image: url($image-url + 'calendar.png');
+  background-position: 95% 50%;
+  background-repeat: no-repeat;
+  @include border-radius(2px);
+}
+
+#history-pagination {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  font-size: 14px;
+  color: #666;
+  .pagination-btn {
+    @include inline-block();
+    width: 12px;
+    height: 14px;
+    text-indent: -9999px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+  $btn-list: 'first', 'prev', 'next', 'last';
+  @each $btn in $btn-list {
+    .#{$btn}-page {
+      background-image: url($image-url + $btn + '-page.png');
+    }
+  }
+  .pagination-input {
+    border: 1px solid #ddd;
+    @include border-radius(2px);
+    height: 14px;
+    width: 20px;
+    padding: 10px 5px;
+    text-align: center;
+  }
+}
+
+#upload-pic-wrap,#upload-file-wrap {
+  position: relative;
+  overflow: hidden;
+  input {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-left: 50px;
+    @include opacity(0);
+    cursor: pointer;
+  }
+}
+
+#previous-messages-btn {
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  span {
+    font-size: 13px;
+    color: $blue;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 12px;
+  -webkit-border-radius: 12px;
+}
+::-webkit-scrollbar-thumb {
+  background: #6B747A;
+  -webkit-border-radius: 12px;
+}
+
+

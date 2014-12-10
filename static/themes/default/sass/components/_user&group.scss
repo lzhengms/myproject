@@ -1,0 +1,152 @@
+.user, .group {
+  position: relative;
+  padding: 0 15px;
+  cursor: pointer;
+  .user-wrap, .group-wrap {
+    position: relative;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  .avatar {
+    width: 40px;
+    height: 40px;
+    float: left;
+  }
+  .content {
+    height: 35px;
+    margin-left: 50px;
+    .name {
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      width: 180px;
+      margin-top: 2px;
+      margin-bottom: 6px;
+      font-size: 14px;
+      line-height: 120%;
+    }
+    .cake {
+      background: url($image-url + 'cake.png') no-repeat 0 0;
+      padding-left: 20px;
+    }
+    .signature {
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      width: 190px;
+      font-size: 13px;
+      color: #999;
+      word-break: break-all;
+      word-wrap: normal;
+    }
+    .last-message {
+      font-size: 13px;
+      height: 18px;
+      display: none;
+      line-height: 150%;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      color: #999;
+      .type-plain {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+      }
+      img {
+        vertical-align: baseline;
+        height: 15px;
+      }
+    }
+  }
+  .unread-tip {
+    position: absolute;
+    top: 6px;
+    left: 28px;
+    width: 20px;
+    height: 20px;
+    background-color: $red;
+    color: #fff;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    @include border-radius(50%);
+  }
+  .contact-time {
+    display: none;
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    color: $blue;
+    font-size: 12px;
+  }
+
+  &.active {
+    background-color: #66c082;
+    color: #fff;
+    .user-wrap, .group-wrap {
+      border-bottom-color: transparent;
+    }
+    .content {
+      .signature {
+        color: #fff;
+      }
+      .last-message {
+        color: #fff;
+      }
+    }
+    .unread-tip {
+      color: #fff;
+    }
+    .contact-time {
+      color: #fff;
+    }
+  }
+
+  &.active-birthday {
+    background: url($image-url + 'birthday-bg.png') no-repeat 0 0;
+    color: #000000;
+    .last-message .type-plain {
+      color: #999;
+    }
+    .contact-time {
+      color: #4f86a4
+    }
+  }
+}
+
+.user, .group {
+  .group-wrap {
+    .name {
+      line-height: 35px;
+      margin: 0;
+    }
+  }
+}
+/* only recent contact panel show last contact time */
+.contacts {
+  .user, .group {
+    .content {
+      .name {
+        width: 130px;
+      }
+      .signature {
+        display: none;
+      }
+      .last-message {
+        display: block;
+      }
+    }
+  }
+  .group {
+    .name {
+      margin-top: 2px;
+      margin-bottom: 6px;
+      line-height: 120%;
+    }
+  }
+  .contact-time {
+    display: block;
+  }
+}
+

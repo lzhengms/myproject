@@ -1,0 +1,39 @@
+<div class="group-search-result">
+    {{if(!init)}}
+        {{if(datalist.length>0)}}
+    <div class="group-search-items">
+        {{for data=datalist key=key item=item}}
+        <div class="group-search-item" data-creatorid={{item.creatorid}} data-role="group-item">
+
+            <div class="group-one-info" data-type="group" data-gid="{{item.gid}}">
+                <div class="group-info-top-part">
+                    <div class="group-own-info">
+                        <div class="group-avatar" data-action="group-info"></div>
+                        <div class="group-approch-info">
+                            <p class="group-name" data-action="group-info">{{item.gname}}</p>
+
+                            <p class="group-member-count">{{item.membernum}}</p>
+
+                            <p class="group-manager"></p>
+                        </div>
+                    </div>
+                    <div class="group-other-info" title="{{item.gnotice}}">
+                        {{item.notice}}
+                    </div>
+                </div>
+                <div class="group-info-bottom-part">
+                    <div class="group-join-btn" data-role="join-group" data-gid="{{item.gid}}" data-gname="{{item.gname}}" data-joinperm="{{item.joinperm}}" data-creatorid={{item.creatorid}} >申请加入</div>
+                </div>
+            </div>
+
+        </div>
+        {{endfor}}
+    </div>
+        {{else}}
+    <div class="group-search-no-result">啊哦,没有找到结果~换个关键词试试?</div>
+        {{endif}}
+    {{else}}
+    <div class="group-search-default"></div>
+    {{endif}}
+</div>
+

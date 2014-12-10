@@ -1,0 +1,50 @@
+.smile_content{
+    border: 1px solid #9FA0A0;
+    height: 230px;
+    width: 410px;
+    display: none;
+    border-radius: 2px;
+    background: #fff;
+}
+.expr-tabs{
+    border-bottom: 1px solid #D5D5D5;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+.expr-tab{
+    float: left;
+    padding: 0 10px;
+    cursor: pointer;
+}
+.expr-tab.active{
+    border-color: #D5D5D5 #D5D5D5 #fff;
+    border-style: solid;
+    border-width: 0 1px 1px;
+}
+.expr-panels{
+    margin: 15px 0 15px 15px;
+    height: 170px;
+    overflow-y: auto;
+}
+.default_face{
+    height: 100%;
+    background: url(../../../../../static/public/themes/default/images/index/default-face.png) no-repeat;
+    width: 360px;
+}
+.expr-option{
+    float: left;
+    height: 24px;
+    width: 24px;
+}
+.emoji_face{
+    overflow: auto;
+    height: 268px;
+    background: url(../../../../../static/public/themes/default/images/index/emoji-face.png) no-repeat;
+}
+.speak_text img{
+    width: 24px;
+    vertical-align: middle;
+}
+
+

@@ -1,0 +1,238 @@
+#main-content-wrap {
+  width: 100%;
+  position: absolute;
+  top: 80px;
+  min-height: 500px;
+  bottom: 0;
+}
+
+#main-content {
+  position: absolute;
+  top: 0;
+  bottom: $footer-height;
+  left: 0;
+  right: 0;
+  width: 275px;
+  margin-left: auto;
+  margin-right: auto;
+  &.chatting {
+    @include transition(width 0.5s);
+    width: 880px;
+    .vernier {
+      display: block;
+    }
+  }
+}
+
+#personnel-panel {
+  position: relative;
+  float: left;
+  height: 100%;
+  width: 275px;
+  @include opacity(0);
+  @include transition(opacity 1s);
+  visibility: hidden\0;
+  &.show {
+    @include opacity(1);
+    visibility: visible\0;
+  }
+  .head {
+    position: relative;
+    height: $head-height;
+    .avatar {
+      position: absolute;
+      top: -45px;
+      left: 10px;
+      width: 80px;
+      height: 80px;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .name {
+      position: absolute;
+      top: 15px;
+      left: 100px;
+    }
+    .dropdown-trigger {
+      position: absolute;
+      z-index: 10;
+      top: 13px;
+      right: 10px;
+      width: 19px;
+      height: 19px;
+      .dropdown-menu {
+        display: none;
+        position: absolute;
+        overflow: hidden;
+        top: 25px;
+        right: -10px;
+        .dropdown-item {
+          width: 90px;
+          padding: 15px 10px 15px 50px;
+        }
+      }
+    }
+  }
+  .neck {
+    .category-tabs {
+      position: relative;
+      font-size: 0;
+      .category-tab {
+        @include inline-block();
+        width: 25%;
+        height: 30px;
+        letter-spacing: normal;
+        word-spacing: normal;
+      }
+    }
+    @media screen and (-webkit-min-device-pixel-ratio: 0) {
+      .category-tabs {
+        letter-spacing: -4px;
+      }
+    }
+  }
+  .body {
+    position: absolute;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 100%;
+    top: 120px;
+    bottom: 0;
+    .category-panel {
+      display: none;
+    }
+    .category-panels {
+      display: block;
+    }
+    #search-result {
+      display: none;
+      .tip {
+        display: none;
+        margin-top: 15px;
+      }
+    }
+
+    &.searching {
+      .category-panels {
+        display: none;
+      }
+      #search-result {
+        display: block;
+      }
+    }
+
+    .friend-list {
+      .friend-list-name {
+        padding: 8px 0 8px 20px;
+        border-bottom: 1px solid #ddd;
+      }
+      .friends {
+        display: none;
+      }
+      &.active {
+        .friends {
+          display: block;
+        }
+      }
+    }
+    .group-list {
+      .group-list-name {
+        padding: 8px 0 8px 20px;
+        border-bottom: 1px solid #ddd;
+      }
+      .groups {
+        display: none;
+      }
+      &.active {
+        .groups {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+#search-bar {
+  position: relative;
+  margin: 0 10px 7px;
+  top: 7px;
+  margin-bottom: 13px;
+  width: 253px;
+  height: 26px;
+  background-color: white;
+  .placeholder {
+
+  }
+}
+
+#search-input {
+  margin: 0;
+  margin-left: 10px;
+  width: 203px;
+  vertical-align: middle;
+  padding: 5px 0;
+  //height: 24px;
+  font-size: 14px;
+  //line-height: 24px;
+  border: none;
+  ::-ms-clear {
+    display: none;
+  }
+}
+
+#search-close {
+  display: none;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 2px;
+  right: 23px;
+}
+
+#search-icon {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 5px;
+  right: 7px;
+}
+
+#last-contact-unread-tip {
+  position: absolute;
+  display: none;
+  top: -5px;
+  left: 35px;
+  width: 20px;
+  height: 20px;
+}
+
+#footer {
+  position: absolute;
+  height: $footer-height;
+  width: 100%;
+  bottom: 0;
+  p {
+    margin-top: 50px;
+  }
+}
+
+#vernier-panel {
+  position: relative;
+  float: left;
+  width: 40px;
+  height: 0;
+  margin-top: 135px;
+  .vernier {
+    display: none;
+    position: absolute;
+    width: 40px;
+    text-align: center;
+    @include transition(top 0.5s);
+    img {
+      width: 16px;
+      height: 16px;
+    }
+  }
+}

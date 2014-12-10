@@ -1,0 +1,230 @@
+.erp-container {
+  @include border-radius(5px);
+  border: 1px solid #ABABAB;
+  .erp-task {
+    padding: 15px 15px 0 15px;
+    border-bottom: 1px solid #ABABAB;
+    .erp-title {
+      font-size: 14px;
+      font-weight: bold;
+    }
+    .erp-content {
+      font-size: 14px;
+      color: #A1A1A1;
+      padding: 20px 0;
+    }
+    .erp-project {
+      .erp-info {
+        padding-bottom: 15px;
+        span {
+          padding-left: 10px;
+        }
+      }
+    }
+  }
+  .erp-footer {
+    text-align: right;
+    padding: 10px 0;
+    a {
+      @include inline-block();
+      margin-right: 15px;
+      color: #608FAB;
+      font-size: 14px;
+      text-decoration: none;
+    }
+  }
+}
+
+%notice-box {
+  padding: 5px 10px;
+  border: 1px solid #999999;
+  cursor: pointer;
+  @include box-shadow(1px 2px 5px #ccc);
+  @include border-radius(5px);
+}
+
+.notice-message {
+  font-size: 14px;
+  margin: 10px;
+  padding-top: 1px;
+  font-family: 'Microsoft Yahei', Verdana, arial, sans-serif;
+  .notice-simple {
+    @extend %notice-box;
+    height: 35px;
+    line-height: 35px;
+    color: #999;
+    .notice-simple-title {
+      width: 275px;
+      padding-right: 15px;
+      display: inline-block;
+      word-break: keep-all;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .notice-simple-user {
+      width: 80px;
+      display: inline-block;
+      word-break: keep-all;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .notice-simple-time {
+      width: 130px;
+      display: inline-block;
+      word-break: keep-all;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+  .notice-full {
+    @extend %notice-box;
+    display: none;
+    min-height: 120px;
+    background: #fff;
+    word-wrap: break-word;
+    .notice-full-title {
+      color: #000;
+      font-weight: bold;
+      text-align: center;
+      padding: 10px 0px;
+      line-height: 150%;
+    }
+    .notice-full-content {
+      color: #5c5c5c;
+    }
+  }
+}
+
+.multiple-video {
+  position: relative;
+  .video-play {
+    background: url($image-url +'videoplay.png') no-repeat;
+    width: 53px;
+    height: 53px;
+    position: absolute;
+    left: 50%;
+    margin-left: -26.5px;
+    top: 50%;
+    margin-top: -26.5px;
+    cursor: pointer;
+  }
+  .video-title {
+    background: rgba(0, 0, 0, 0.5);
+    filter:progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7F000000,endcolorstr=#7F000000);
+    position: absolute;
+    color: #ffffff;
+    bottom: -1px;
+    width: 100%;
+    p{
+      padding: 5px 10px;
+    }
+  }
+}
+
+.psp-mutiple-imgs {
+  @include border-radius(5px);
+  padding: 20px 20px 0 20px;
+  border: 1px solid #B2B2B2;
+  margin: 10px 20px;
+  a {
+    text-decoration: none;
+    @include inline-block();
+    width: 100%;
+  }
+  .one-item-img {
+    .one-item-title {
+      a {
+        color: #000000;
+      }
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+    img {
+      padding-left: 5px;
+      max-width: 470px;
+    }
+    .one-item-content {
+      padding: 15px 0;
+      font-size: 13px;
+      @include opacity(0.5);
+    }
+    .link-view {
+      text-align: right;
+      padding: 15px 0;
+      border-top: 1px solid #B2B2B2;
+      a {
+        color: #6F9BB3;
+        font-size: 14px;
+      }
+
+    }
+  }
+
+  .mutiple-item {
+    border-top: 1px solid #B2B2B2;
+    position: relative;
+    @include clearfix();
+    .item-title {
+      float: left;
+      p {
+        font-size: 14px;
+        font-weight: bold;
+        text-align: left;
+        color: #000;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width:350px;
+        max-height: 87px;
+        line-height: 1.5em;
+        margin-top: 10px;
+      }
+    }
+    .item-img {
+      padding: 5px 0;
+      float: right;
+      img {
+        max-width: 100px;
+        max-height: 75px;
+        border: 1px solid #B2B2B2;
+      }
+    }
+  }
+
+  .mutiple-item-first {
+    position: relative;
+    text-align: center;
+    .item-title {
+      background: rgba(0, 0, 0, 0.5);
+      filter:progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7F000000,endcolorstr=#7F000000);
+      position: absolute;
+      bottom: 5px;
+      font-weight: bold;
+      left:0;
+      right:0;
+      margin:2px 10px;
+      p {
+        color: #ffffff;
+        height:30px;
+        line-height:30px;
+        padding: 0 20px;
+        margin-top: 0;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: left;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width:350px;
+      }
+    }
+    .item-img {
+      padding: 5px 0;
+      img {
+        max-width: 470px;
+        max-height: 200px;
+      }
+    }
+  }
+}

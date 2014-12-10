@@ -1,0 +1,12 @@
+<div class="user {{status?'active': ''}}" data-uid="{{uid}}" data-type="user" data-action="{{uid==Global.uid?'user-info':'talk-to'}}">
+    <div class="user-wrap">
+        <img class="avatar" src="{{isPsp?Global.pspFaceUrl:Global.faceUrl}}{{uid}}" title="{{username}}" data-action="{{isPsp?'':'user-info'}}"/>
+        <div class="content">
+            <div class="name {{(birthdayToday || birthdayAnotherday) ? 'cake' : ''}}" data-role="username" title="{{(birthdayToday || birthdayAnotherday) ? Global.helper.birthdayBlessings(username, days) : username}}">{{username}}</div>
+            <div class="signature" data-role="signature" title="{{signatureTitle || ''}}">{{signature || '&nbsp;'}}</div>
+            <div class="last-message" data-role="last-message">{{lastMessageContent}}</div>
+        </div>
+        <div class="unread-tip" data-role="unread-tip" style="display: {{unreadCount ? 'block' : 'none'}}">{{unreadCount}}</div>
+        <div class="contact-time" data-role="contact-time">{{Global.helper.cuteContactTime(lastContactTime)}}</div>
+    </div>
+</div>

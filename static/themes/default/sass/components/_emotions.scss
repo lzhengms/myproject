@@ -1,0 +1,52 @@
+#expr-selector {
+  display: none;
+  background-color: #fff;
+  border: 1px solid #9FA0A0;
+  @include border-radius(3px);
+  @include box-shadow(0px 0px 6px rgba(94, 89, 89, 0.57));
+  .expr-tabs {
+    border-bottom: 1px solid #ddd;
+    .expr-tab {
+      font-size: 12px;
+      padding: 10px 10px 5px;
+      margin-left: 15px;
+      color: #ccc;
+      cursor: pointer;
+      @include inline-block();
+      &.active {
+        color: #333;
+        border-bottom: 3px solid #59C379;
+      }
+    }
+  }
+  .expr-panels {
+    font-size: 0;
+    padding: 10px 15px 0 10px;
+    margin-bottom: 10px;
+    width: 360px;
+    height: 168px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    .expr-panel {
+      width: 360px;
+      .expr-option {
+        width: 22px;
+        height: 22px;
+        border: 1px solid transparent;
+        @include inline-block();
+        cursor: pointer;
+        &:hover {
+          border-color: #ddd;
+        }
+      }
+    }
+    .default-face {
+      background-image: url($image-url + 'default-face.png');
+      background-repeat: no-repeat;
+    }
+    .emoji-face {
+      background-image: url($image-url + 'emoji-face.png');
+      background-repeat: no-repeat;
+    }
+  }
+}

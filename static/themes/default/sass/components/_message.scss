@@ -1,0 +1,248 @@
+$message-max-width: 400px;
+%message {
+  padding: 5px 20px;
+
+  overflow: hidden;
+
+  .avatar-wrap {
+    width: 40px;
+    height: 40px;
+    // @include inline-block();
+    // vertical-align: top;
+    cursor: pointer;
+  }
+  .avatar {
+    width: 40px;
+    height: 40px;
+    @include inline-block();
+    vertical-align: top;
+  }
+  .content {
+    //@include inline-block();
+    position: relative;
+    .username {
+      font-size: 12px;
+      color: #aaa;
+      margin-bottom: 5px;
+    }
+    .time-wrap {
+      display: none;
+      font-size: 14px;
+      color: #999;
+      margin-bottom: 5px;
+      .date {
+        margin-right: 10px;
+      }
+      .time {
+      }
+    }
+  }
+
+  .message-content {
+    // @include inline-block();
+    max-width: $message-max-width;
+    position: relative;
+    text-align: left;
+    font-size: 14px;
+    padding: 10px;
+    word-wrap: break-word;
+    &:before {
+      content: '';
+      border: 6px solid transparent;
+      position: absolute;
+      top: 0;
+    }
+    @include border-radius(3px);
+    .custom, .clip {
+      _width: $message-max-width;
+      max-width: $message-max-width;
+      cursor: pointer;
+      vertical-align: middle;
+    }
+    .pic_img {
+      max-width: 100%;
+    }
+    .emotion {
+      vertical-align: middle;
+    }
+    .emoji-emotion {
+      width: 34px;
+      height: 34px;
+    }
+    .audio {
+      background-repeat: no-repeat;
+      width: 100px;
+      height: 22px;
+      @include inline-block();
+    }
+    .psp-audio, .psp-audio-playing {
+      background-repeat: no-repeat;
+      width: 100px;
+      height: 22px;
+      @include inline-block();
+      cursor: pointer;
+    }
+    .psp-audio {
+      background: url($image-url +'sound-left.png') no-repeat 0 0;
+    }
+    .psp-audio-playing {
+      background: url($image-url + 'sounding.gif') no-repeat 0 -5px;
+    }
+    .type-plain {
+      line-height: 150%;
+    }
+    .type-image {
+      line-height: 150%;
+    }
+    .type-audio {
+
+    }
+  }
+}
+
+.history {
+  %message {
+    .time-wrap {
+      display: block;
+    }
+  }
+}
+
+.others-message {
+  @extend %message;
+  text-align: left;
+  .avatar-wrap {
+    float: left;
+  }
+  .content {
+    float: left;
+    margin-left: 5px;
+  }
+  .message-content {
+    float: left;
+    margin-left: 5px;
+    background-color: $light-green;
+    color: #030303;
+    &:before {
+      left: -6px;
+      border-top-color: $light-green;
+    }
+    a {
+      color: #4f86a4;
+    }
+    .audio {
+      background-image: url($image-url + 'sound-left.png');
+      background-position: 0 0;
+      cursor: pointer;
+    }
+  }
+  .message-erp {
+    background-color: #F5F5F5;
+    width:$message-max-width;
+    &:before {
+      border: none;
+    }
+  }
+}
+
+.my-message {
+  @extend %message;
+  text-align: right;
+
+  .avatar-wrap {
+    float: right;
+  }
+
+  .content {
+    float: right;
+    margin-right: 5px;
+  }
+  .error {
+    position: absolute;
+    margin-right: 5px;
+    top: 50%;
+    margin-left: -33px;
+    margin-top: -15px;
+    width: 30px;
+    height: 30px;
+    background: url($image-url + 'warning.png');
+    cursor: pointer;
+  }
+  .message-content {
+    float: right;
+    margin-right: 5px;
+    background-color: #DEE6E9;
+    color: #333;
+    .progress {
+      width: 200px;
+      height: 20px;
+      .bar {
+        border: 1px solid #aaa;
+        border-radius: 4px;
+        height: 10px;
+        background: #0d88c1;
+        width:0;
+      }
+      .num {
+        font-size: 12px;
+        text-align: center;
+      }
+    }
+    &:before {
+      right: -6px;
+      border-top-color: #DEE6E9;
+    }
+    a {
+      color: $blue;
+    }
+    .audio {
+      background-image: url($image-url + 'sound-right.png');
+      background-position: 100% 0;
+    }
+  }
+  &.error-message {
+    &:before {
+      @include inline-block;
+      content: '';
+      width: 30px;
+      height: 30px;
+      background: url($image-url + 'warning.png');
+    }
+  }
+}
+.messages-container {
+  .group-notice {
+    background: #DEE6E9;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+}
+.group-notice {
+  //background: #DEE6E9;
+  margin: 10px auto;
+  @include border-radius(3px);
+  line-height: 200%;
+  padding: 5px;
+  color: #959da0;
+//  text-align: center;
+  font-size: 12px;
+  width: 360px;
+//  border: 1px solid #ccc;
+  strong {
+    font-weight: bold;
+  }
+}
+
+.group-system-notice {
+  background: #DEE6E9;
+  @include border-radius(3px);
+  line-height: 200%;
+  padding: 15px;
+  margin: 10px 20px;
+  color: #333;
+  text-align: center;
+  font-size: 14px;
+  strong {
+    font-weight: bold;
+  }
+}

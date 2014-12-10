@@ -1,0 +1,48 @@
+.org {
+  position: relative;
+  cursor: pointer;
+  .org-name {
+    font-size: 14px;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+    background-image: url($image-url + 'fold.png');
+    background-repeat: no-repeat;
+  }
+  .sub-orgs, .sub-users {
+    display: none;
+  }
+  .request-more {
+    cursor: pointer;
+    padding: 5px;
+    text-align: center;
+    color: $blue;
+    font-size: 14px;
+    border-bottom: 1px solid #ddd;
+    display: none;
+  }
+  &.active {
+    >.org-name {
+      background-image: url($image-url + 'unfold.png');
+    }
+    >.sub-orgs, >.sub-users {
+      display: block;
+    }
+  }
+  @for $depth from 0 through 10 {
+    &.depth-#{$depth} {
+      .org-name {
+        padding: 8px 0 8px 10 + 10px*$depth;
+        background-position: 10px*($depth - 1) 5px;
+      }
+      .user {
+        padding-left: 10px*$depth;
+        .user-wrap {
+          border: 0;
+        }
+        border-bottom: 1px solid #ddd;
+      }
+    }
+  }
+}

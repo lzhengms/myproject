@@ -1,0 +1,216 @@
+.group-search-default {
+  background: url($image-url + 'group-search-default.png') no-repeat 0;
+  height: 327px;
+  width: 794px;
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  margin:auto;
+}
+
+.group-search-no-result {
+  color: $group-blue;
+  font-size: 13px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 30px;
+  width: 300px;
+}
+
+.group-search {
+  .group-serach-header {
+    margin-bottom: 15px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    height: 33px;
+    @include border-radius(8px);
+    .group-search-input {
+      width: 706px;
+      height: 15px;
+      line-height: 15px;
+      padding: 10px;
+      float: left;
+      border: 0;
+    }
+    .placeholder {
+      margin-top: 8px;
+    }
+    .submit-btn {
+      float: left;
+      color: #fff;
+      background-repeat: repeat-x;
+      width: 72px;
+      text-align: center;
+      height: 14px;
+      line-height: 14px;
+      padding: 10px;
+
+    }
+  }
+  .group-search-bar {
+    padding: 5px;
+    height: 25px;
+    line-height: 25px;
+    background-color: #EBF0F3;
+    overflow: hidden;
+    color: #000;
+    font-size: 12px;
+    margin-bottom: 10px;
+    .group-search-result-txt {
+      float: left;
+      span {
+        padding: 0 5px;
+      }
+    }
+    .group-search-page {
+      float: right;
+      margin-right: 10px;
+      a {
+        @include inline-block();
+        margin: 0 10px;
+        width: 26px;
+        height: 24px;
+        &[data-action="prev"] {
+          background: url($image-url + 'page-prev.png') no-repeat -25px 0;
+          &.disabled {
+            background-position: 0 0;
+          }
+        }
+        &[data-action="next"] {
+          background: url($image-url + 'page-next.png') no-repeat -25px 0;
+          &.disabled {
+            background-position: 0 0;
+          }
+        }
+      }
+
+    }
+    .group-search-del {
+      float: right;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+  }
+  .group-search-result {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 419px;
+    position: relative;
+    .group-search-items {
+      overflow: hidden;
+    }
+  }
+  .group-empty-tip {
+    position: relative;
+    margin-top: -7px;
+    visibility:hidden;
+    .arrow {
+      .arrow-in {
+        position: absolute;
+        width: 0;
+        height: 0;
+        border: 6px solid transparent;
+        border-bottom-color: #ffffff;
+        left:60px;
+        top:-11px;
+        z-index: 3;
+      }
+      .arrow-out {
+        position: absolute;
+        width: 0;
+        height: 0;
+        border: 6px solid transparent;
+        border-bottom-color: $blue;
+        left:60px;
+        top:-12px;
+        z-index: 1;
+      }
+    }
+    .error-content {
+      position: absolute;
+      color: #000;
+      background: url($image-url + 'notice.png') no-repeat 5px center #ffffff;
+      padding: 5px 0 5px 30px;
+      width: 120px;
+      height: 20px;
+      line-height: 20px;
+      border: 1px solid $blue;
+      @include border-radius(5px);
+      z-index: 2;
+    }
+  }
+
+}
+
+.group-search-item {
+  border: 1px solid #ccc;
+  font-size: 13px;
+  float: left;
+  margin: 6px 6px 0 0;
+  width: 258px;
+  height: 144px;
+  position: relative;
+  .group-info-top-part {
+    overflow: hidden;
+    padding: 12px;
+    .group-avatar {
+      background: url($image-url +'group-avatar.png') no-repeat 0;
+      width: 40px;
+      height: 40px;
+      float: left;
+      cursor: pointer;
+    }
+    .group-approch-info {
+      overflow: hidden;
+      margin-left: 53px;
+      .group-name {
+        color: $group-blue;
+        cursor: pointer;
+      }
+      .group-member-count {
+        background: url($image-url + 'group-member-count.png') no-repeat 0;
+        width: 20px;
+        height: 20px;
+        padding-left: 30px;
+        padding-top: 10px;
+      }
+      .group-manager {
+        background: url($image-url + 'group-manager.png') no-repeat 0;
+        height: 14px;
+        padding-left: 30px;
+      }
+    }
+    .group-other-info {
+      padding: 10px;
+    }
+  }
+  .group-info-bottom-part {
+    padding: 5px 0;
+    background-color: #F5F5F5;
+    border-top: 1px solid #ccc;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: right;
+    .group-join-btn {
+      background-color: #8CC2E6;
+      font-size: 13px;
+      color: #fff;
+      padding: 3px 5px;
+      width: 60px;
+      @include border-radius(5px);
+      text-align: center;
+      float: right;
+      margin-right: 10px;
+      cursor: pointer;
+    }
+  }
+}
+

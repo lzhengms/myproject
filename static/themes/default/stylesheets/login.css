@@ -1,0 +1,131 @@
+html,body{
+	height: 100%;
+	background: #4E5359 url(../images/bg.png) repeat 0 0;
+	color: #666;
+	font: 16px/1.5 Helvetica,"微软雅黑","黑体",Arial,Tahoma;
+	text-align: center;
+	overflow-y: auto;
+    overflow-x: hidden;
+}
+.login-wrap{
+	max-width: 292px; 
+	margin: 0px auto;
+}
+.login-title{
+	background: url(../images/login/logo0.png) no-repeat;
+	padding-left: 0px;
+	font-size: 26px;
+	font-weight: 600;
+	letter-spacing: 4px;
+	color: #f2f2f2;
+	line-height: 64px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	text-shadow:0 0 3px #222;
+}
+.login-box {
+    position: relative;
+}
+.login-account{
+	width: 284px;
+	padding: 15px 0 15px 8px;
+	/*height: 24px;*/
+	/*line-height: 24px;*/
+    line-height: 1;
+	border:none;
+	background: #fff;
+	margin-top: 50px;
+	border-radius: 6px;
+	box-shadow: 0 0 5px #222 inset;
+	outline: none;
+}
+.login-password{
+	width: 284px;
+    padding: 15px 0 15px 8px;
+	/*height: 24px;*/
+	/*line-height: 24px;*/
+    line-height: 1;
+	border:none;
+	background: #fff;
+	margin-top: 50px;
+	border-radius: 6px;
+	box-shadow: 0 0 5px #222 inset;
+	outline: none;
+	margin-top: 25px;
+}
+.login-checkcode{
+	text-align: left;
+	line-height: 50px;
+	margin-top: 25px;
+	display: none;
+	clear: both;
+
+}
+.login-code{
+	width: 144px;
+	padding-left: 8px;
+	height: 50px;
+	line-height: 50px;
+	border:none;
+	background: #fff;
+	border-radius: 6px;
+	box-shadow: 0 0 5px #222 inset;
+	outline: none;
+}
+.login-codeimg{
+	float: right;
+	margin-top: 6px;
+	cursor: pointer;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #222 inset;
+}
+.login-submit{
+	width: 292px;
+	height: 57px;
+	line-height: 57px;
+	text-align: center;
+	border: none;
+	background: url(../images/sp.png) no-repeat;
+	margin-top: 40px;
+	font-weight: bold;
+	font-size: 20px;
+	letter-spacing: 5px;
+	color: #f2f2f2;
+	cursor: pointer;
+	background-position: -7px -443px;
+}
+.login-submit:hover{
+	background-position: -316px -443px; 
+}
+.login-submit:focus{
+	background-position: -625px -443px; 
+}
+.login-bottom{
+	width: 292px;
+	height: 66px;
+	background-image: url(../images/footer-bg.png);
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+	margin-top: 100px;
+    position: relative;
+}
+.login-bottom p {
+    width: 100%;
+    font-size: 13px;
+    font-weight: bold;
+    color: #222;
+    position: absolute;
+    bottom: 0;
+}
+.err-tip{
+	margin-top: 10px; 
+	text-align: left;
+	color: red;
+}
+
+.placeholder {
+    margin-top: 10px;
+    margin-left: 0;
+    height: auto !important;
+    line-height: 1.5 !important;
+}

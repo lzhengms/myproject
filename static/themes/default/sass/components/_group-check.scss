@@ -1,0 +1,80 @@
+.enter-info-box {
+  background-color: #fff;
+  .header {
+    height: 43px;
+    line-height: 43px;
+    padding: 0 20px;
+    background-color: #eee;
+  }
+  .main {
+    min-height: 200px;
+    height: 200px;
+    .content {
+      padding-bottom: 30px;
+      color: #888;
+    }
+    .group-check {
+      .group-check-content {
+        .group-info {
+          margin: 0 15px;
+          text-align: left;
+          height: 50px;
+          font-size: 0;
+          .group-avatar {
+            background: url($image-url +'group-avatar.png') no-repeat 0;
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            padding: 5px 0;
+            cursor: pointer;
+          }
+          .group-approch-info {
+            display: inline-block;
+            margin-left: 20px;
+            font-size: 12px;
+            .top {
+              height: 25px;
+              line-height: 25px;
+              .group-name {
+                margin-left: 10px;
+              }
+            }
+            .group-creator {
+              height: 25px;
+              line-height: 25px;
+            }
+          }
+        }
+        .validate {
+          margin-top: 15px;
+          .title {
+            margin-left: 15px;
+            margin-bottom: 20px;
+          }
+          .content {
+            min-height: 90px;
+            height: 94px;
+            width: 96%;
+            margin: 0 auto;
+            padding: 5px 2%;
+          }
+        }
+      }
+    }
+  }
+  .footer {
+    vertical-align: middle;
+    margin: 30px;
+    margin-top: -10px;
+    .buttons {
+      text-align: right;
+      margin-bottom: 5px;
+      .submit-group-apply, .cancel-group-apply {
+        height: 38px;
+        width: 108px;
+        color: #887;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,208 @@
+@charset "UTF-8";
+
+body {
+  background-image: url($image-url + 'bg.png');
+  background-repeat: repeat;
+  font-family: Helvetica, Arial, Tahoma;
+}
+#personnel-panel, #chat-window {
+  @include border-radius(3px);
+  background-color: #F5F5F5;
+  .head {
+    @include border-radius(3px 3px 0 0);
+    background-image: url($image-url + 'head-bg.png');
+    background-repeat: repeat-x;
+    .avatar {
+      img {
+        border: 2px solid #fff;
+        @include border-radius(50%);
+      }
+      cursor: pointer;
+    }
+    .name {
+      color: #fff;
+      font-size: 20px;
+    }
+    .dropdown-trigger {
+      background-image: url($image-url + 'dropdown-icon.png');
+      cursor: pointer;
+      .dropdown-menu {
+        @include border-radius(3px);
+        border: 1px solid #ddd;
+        @include box-shadow(1px 2px 10px rgba(0, 0, 0, 0.2));
+        background-color: #fff;
+        .dropdown-item {
+          border-bottom: 1px solid #ddd;
+          &:hover {
+            background-color: #64c983;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+  .birthday {
+    background: url($image-url + 'head-birthday.png') no-repeat 0 0;
+
+    .history-btn {
+      background: url($image-url + 'history-birthday.png') no-repeat center;
+    }
+    .go-back-btn {
+      background: url($image-url + 'go-back-birthday.png') no-repeat center;
+    }
+    .title {
+      color: #333 !important;
+      .name {
+        color: #333;
+      }
+      .status {
+        color: #333;
+      }
+    }
+  }
+  .neck {
+    background-color: #E0E5E8;
+    border-bottom: 1px solid #ddd;
+    .category-tabs {
+      .category-tab {
+        cursor: pointer;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+      }
+      .contacts {
+        background-image: url($image-url + 'contacts.png');
+        &:hover, &.active {
+          background-image: url($image-url + 'contacts-hl.png');
+        }
+      }
+      .friends {
+        background-image: url($image-url + 'friends.png');
+        &:hover, &.active {
+          background-image: url($image-url + 'friends-hl.png');
+        }
+      }
+      .orgs {
+        background-image: url($image-url + 'orgs.png');
+        &:hover, &.active {
+          background-image: url($image-url + 'orgs-hl.png');
+        }
+      }
+      .groups {
+        background-image: url($image-url + 'groups.png');
+        &:hover, &.active {
+          background-image: url($image-url + 'groups-hl.png');
+        }
+      }
+    }
+  }
+  .body {
+    .friend-list {
+      .friend-list-name {
+        font-size: 14px;
+        background-image: url($image-url + 'fold.png');
+        background-repeat: no-repeat;
+        background-position: 0 5px;
+      }
+      .friends {
+      }
+      &.active {
+        .friend-list-name {
+          background-image: url($image-url + 'unfold.png');
+        }
+        .friends {
+        }
+      }
+    }
+    .group-list {
+      .group-list-name {
+        font-size: 14px;
+        background-image: url($image-url + 'fold.png');
+        background-repeat: no-repeat;
+        background-position: 0 5px;
+      }
+      .groups {
+
+      }
+      &.active {
+        .group-list-name {
+          background-image: url($image-url + 'unfold.png');
+        }
+        .groups {
+        }
+      }
+    }
+  }
+}
+
+#personnel-panel {
+  .friend-list-name {
+    cursor: pointer;
+  }
+  .group-list-name {
+    cursor: pointer;
+  }
+}
+
+$dropdown-list: 'checkout-all', 'app-box', 'logout','search-add-group';
+
+@each $item in $dropdown-list {
+  ##{$item} {
+    background-repeat: no-repeat;
+    background-position: 10px 50%;
+    background-image: url($image-url + $item + '.png');
+    &:hover {
+      background-image: url($image-url + $item + '-hl.png');
+    }
+  }
+}
+
+
+#search-bar {
+  border: 1px solid #ddd;
+  @include border-radius(20px);
+  .placeholder {
+    font-size: 14px;
+    margin-top: 7px;
+  }
+}
+#search-input {
+  @include border-radius(5px);
+}
+#search-close {
+  background-image: url($image-url + 'close.png');
+  cursor: pointer;
+}
+#search-icon {
+  background-image: url($image-url + 'find.png');
+  cursor: pointer;
+}
+
+#search-result {
+  .tip {
+    color: #999;
+    text-align: center;
+    font-size: 13px;
+    line-height: 150%;
+  }
+}
+
+#last-contact-unread-tip {
+  background: $red;
+  font-size: 12px;
+  line-height: 20px;
+  @include border-radius(50%);
+  text-align: center;
+  color: #fff;
+}
+
+#footer {
+  background-image: url($image-url + "footer-bg.png");
+  background-position: 50% 10px;
+  background-repeat: no-repeat;
+  p {
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    color: #222;
+  }
+}

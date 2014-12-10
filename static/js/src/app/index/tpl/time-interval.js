@@ -1,0 +1,1 @@
+define(function(){return {render:function(map) {var p=[],v =[];for(var i in map) {p.push(i);v.push(map[i]);}return (new Function(p, "var _s=[];_s.push(' <div class=\"time-interval\">  <span class=\"time\">',Global.helper.cuteTimeline(time),'</span> </div>'); return _s;")).apply(null, v).join("");}};});
