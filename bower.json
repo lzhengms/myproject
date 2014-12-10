@@ -1,0 +1,20 @@
+{
+  "name": "myproject",
+  "version": "0.0.1",
+  "homepage": "https://github.com/lzhengms/myproject",
+  "authors": [
+    "lzhengms <lzhengms@gmail.com>"
+  ],
+  "description": "myproject with bower",
+  "keywords": [
+    "myproject"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
